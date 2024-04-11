@@ -30,5 +30,11 @@ public class CalculatorTest {
         assertEquals(2,mycalc.sub(8,6));
 
     }
+    @Test
+    void divTest()
+    {
+        mycalc=new Calculator();
+        assertEquals(4,mycalc.div(8,2));
+    }
 
 }
