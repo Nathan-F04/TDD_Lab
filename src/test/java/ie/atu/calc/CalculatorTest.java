@@ -16,5 +16,12 @@ public class CalculatorTest {
         assertEquals(10,mycalc.add(4,6));
 
     }
+    @Test
+    void multiTest()
+    {
+        mycalc=new Calculator();
+        assertEquals(24,mycalc.multi(4,6));
+
+    }
 
 }
